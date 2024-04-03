@@ -6,3 +6,6 @@ The hardware essentially boils down to 4 H-bridges, and a boost converter. The H
 
 ### Software
 The software creates an AC square wave on the channel that is asked of it. Frequency should be somewhere from [30 - 50Hz](https://enrichedhealthcare.com/library/resources/tens/#:~:text=80%20to%20120Hz%2Dacute%20pain%0A%0A35%2D50Hz%2Dmuscle%20stimulation%0A%0A2%20to%2010Hz%20%E2%80%93%20chronic%20pain) in order to stimulate the muscle properly. The boost converter uses extremely simple controls as of now, but I plan to give it PID control soon.
+
+### Usage
+I used this project to shock users in [this](https://youtu.be/dzjZxOKlJjM) video of my friends playing mario kart. I have plans to use it more in the coming years.
